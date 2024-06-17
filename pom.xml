@@ -209,19 +209,20 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-driver.version}</version>
+	    <scope>runtine</scope>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql-driver.version}</version>
+	    <scope>runtine></scope>
         </dependency>
 
         <!-- Logging with SLF4J & LogBack -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4
-            .version}</version>
+            <version>${slf4.version}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -312,7 +313,7 @@
         </dependency>
 
         <!-- JDBC Drivers -->
-        <dependency>
+        <!--<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-driver.version}</version>
@@ -323,7 +324,7 @@
             <artifactId>postgresql</artifactId>
             <version>${postgresql-driver.version}</version>
             <scope>runtime</scope>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
     <build>
