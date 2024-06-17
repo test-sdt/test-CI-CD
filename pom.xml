@@ -38,7 +38,7 @@
         <h2database.version>1.4.200</h2database.version>
 
         <!-- Logging -->
-        <slf4j.version>1.7.32</slf4j.version>
+        <slf4j.version>2.1.0-alpha1</slf4j.version>
         <logback.version>1.2.6</logback.version>
 
         <!-- Test -->
@@ -209,13 +209,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-driver.version}</version>
-	    <scope>runtine</scope>
+	    <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql-driver.version}</version>
-	    <scope>runtine></scope>
+	    <scope>runtime></scope>
         </dependency>
 
         <!-- Logging with SLF4J & LogBack -->
