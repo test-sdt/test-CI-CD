@@ -44,7 +44,7 @@
         <spring-data.version>2024.0.1</spring-data.version>
         <hibernate.version>5.6.0.Final</hibernate.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
-        <hsqldb.version>2.5.2</hsqldb.version>
+        <hsqldb.version>2.7.3</hsqldb.version>
         <h2database.version>1.4.200</h2database.version>
 
         <!-- Logging -->
@@ -237,10 +237,9 @@
             <version>${h2database.version}</version>
         </dependency>
         <dependency>
-            <groupId>hsqldb</groupId>
+            <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-            <version>${hsqldb.version}</version>
-            <scope>runtime</scope>
+            <version>2.7.3</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -290,9 +289,9 @@
             <version>${jaxb-runtime.version}</version>
         </dependency>
         <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
-            <version>${javax-activation.version}</version>
+            <groupId>one.gfw</groupId>
+            <artifactId>javax.activation-api</artifactId>
+            <version>1.2.0</version>
         </dependency>
 
         <!--  Bootstrap / jQuery -->
